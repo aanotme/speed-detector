@@ -12,13 +12,7 @@ It includes:
 
 ------------------------------------------------------------------------
 
-## 📦 Installation & Requirements
-
-### Install Homebrew (if not installed)
-
-``` bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+## Installation & Requirements (MacOS)
 
 ### Install OpenCV
 
@@ -34,7 +28,7 @@ pkg-config --cflags --libs opencv4
 
 ------------------------------------------------------------------------
 
-## 🛠 Compile the Program
+## Compile the Program
 
 ``` bash
 g++ main.cpp -o car_speed `pkg-config --cflags --libs opencv4`
@@ -42,7 +36,7 @@ g++ main.cpp -o car_speed `pkg-config --cflags --libs opencv4`
 
 ------------------------------------------------------------------------
 
-## ▶️ Running the Program
+## Running the Program
 
 ### 1. Run with a video file
 
@@ -59,7 +53,7 @@ g++ main.cpp -o car_speed `pkg-config --cflags --libs opencv4`
 
 ------------------------------------------------------------------------
 
-## ⚙️ Calibration
+## Calibration
 
 Adjust:
 
@@ -73,13 +67,13 @@ Use:
 
 ------------------------------------------------------------------------
 
-## 🛑 Quit
+## Quit
 
 Press ESC, q, or Q.
 
 ------------------------------------------------------------------------
 
-## 🐞 Troubleshooting
+## Troubleshooting
 
 -   Try different camera index if webcam fails.
 -   Recalibrate metersPerPixel if speed is wrong.
